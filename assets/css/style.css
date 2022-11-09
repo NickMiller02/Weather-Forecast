@@ -17,7 +17,14 @@ h1 {
 }
 
 .text-center {
-    padding: 0;
-    margin: 0;
     text-align: center;
+}
+
+.flex-left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.border {
+    border-style: solid;
 }
