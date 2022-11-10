@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary: silver;
+    --secondary: grey;
+}
+
 html,
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -20,11 +25,26 @@ h1 {
     text-align: center;
 }
 
-.flex-left {
-    display: flex;
-    align-items: flex-start;
+.searchContainer {
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--secondary);
 }
 
 .border {
     border-style: solid;
+}
+
+.future-cast {
+    height: 150px;
+    width: 5px;
+    padding: 20px;
+    margin: 10px;
+    background-color: silver;
+}
+
+.hidden {
+    display: none;
 }

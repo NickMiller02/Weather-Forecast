@@ -16,34 +16,50 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-3 container search flex-left">
+            <div class="col-3">
                 <div class="container">
                     <h3>Find a City:</h3>
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="city" id="userInput"></textarea>
                         <label for="floatingTextarea">Put a city name here</label>
-                        <button type="button" class="btn btn-success" id="searchBtn"><i class="fa fa-search"></i></button>
+                        <button type="button" class="btn" id="searchBtn"><i class="fa fa-search"></i></button>
                     </div>
                 </div>
+
+                <div id="historyContainer" class="searchContainer">
+                    <h2>Search History</h2>
+                    <div id="searchHistory">                       
+                    </div>
+                </div>
+
             </div>
 
-            <div id="searchHistory" class="container">
-            </div>
-            
             <div class="col-9 container border">
                 <div class="row hide" id="currentCity">
-                    <h3 id="currentCityInfo"><img id="weatherImage"><img></h3>
+                    <h3 id="currentCityInfo">this is a test<img id="weatherImage"><img></h3>
                     <p id="currentTemp">test</p>
                     <p id="currentHumid">1234</p>
                     <p id="currentWind">56778</p>
                     <p id="currentUvi">yfhyyf</p>
                 </div>
-                <div class="row hide" id="forecast">
+
+                <div id="futurecast" class="row">
+                    <div class="col-2 future-cast">
+                        <p>this is a test</p>
+                    </div>
+                    <div class="col-2 future-cast"></div>
+                    <div class="col-2 future-cast"></div>
+                    <div class="col-2 future-cast"></div>
+                    <div class="col-2 future-cast"></div>
                 </div>
+
             </div>
 
-
         </div>
+
     </div>
+
+    <script src="https://kit.fontawesome.com/db39e41c06.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
