@@ -5,6 +5,9 @@
 :root {
     --primary: silver;
     --secondary: grey;
+    --green: green;
+    --yellow: yellow;
+    --red: darkred;
 }
 
 html,
@@ -43,6 +46,24 @@ h1 {
     padding: 20px;
     margin: 10px;
     background-color: silver;
+}
+
+.uv-green {
+    padding: 1px;
+    margin: 1px;
+    background-color: var(--green);
+}
+
+.uv-yellow {
+    padding: 1px;
+    margin: 1px;
+    background-color: var(--yellow);
+}
+
+.uv-red {
+    padding: 1px;
+    margin: 1px;
+    background-color: var(--red);
 }
 
 .hidden {
