@@ -13,9 +13,11 @@
         <h1>Weather Dashboard</h1>
     </header>
 
+
     <div class="container">
         <div class="row">
 
+            <!-- Search Bar -->
             <div class="col-3">
                 <div class="container">
                     <h3>Find a City:</h3>
@@ -26,6 +28,7 @@
                     </div>
                 </div>
 
+                <!-- Search History -->
                 <div id="historyContainer" class="searchContainer">
                     <h2>Search History</h2>
                     <div id="searchHistory">                       
@@ -34,23 +37,49 @@
 
             </div>
 
+            <!-- Current Forecast -->
             <div class="col-9 container border">
                 <div class="row hide" id="currentCity">
                     <h3 id="currentCityInfo">this is a test<img id="weatherImage"><img></h3>
                     <p id="currentTemp">test</p>
                     <p id="currentHumid">1234</p>
                     <p id="currentWind">56778</p>
-                    <p id="currentUvi">yfhyyf</p>
+                    <p id="currentUV">yfhyyf</p>
                 </div>
 
+                <!-- Future Forecast -->
                 <div id="futurecast" class="row">
-                    <div class="col-2 future-cast">
-                        <p>this is a test</p>
+                    <h2>Future Forecast</h2>
+                    <div id='day1' class="col-2 future-cast">
+                        <h4 id="date1"></h4>
+                        <div id="logo1"></div>
+                        <h5 id="temp1"></h5>
+                        <h5 id="hum1"></h5>
                     </div>
-                    <div class="col-2 future-cast"></div>
-                    <div class="col-2 future-cast"></div>
-                    <div class="col-2 future-cast"></div>
-                    <div class="col-2 future-cast"></div>
+                    <div id='day2' class="col-2 future-cast">
+                        <h4 id="date2"></h4>
+                        <div id="logo2"></div>
+                        <h5 id="temp2"></h5>
+                        <h5 id="hum2"></h5>
+                    </div>
+                    <div id='day3' class="col-2 future-cast">
+                        <h4 id="date3"></h4>
+                        <div id="logo3"></div>
+                        <h5 id="temp3"></h5>
+                        <h5 id="hum3"></h5>
+                    </div>
+                    <div id='day4' class="col-2 future-cast">
+                        <h4 id="date4"></h4>
+                        <div id="logo4"></div>
+                        <h5 id="temp4"></h5>
+                        <h5 id="hum4"></h5>
+                    </div>
+                    <div id='day5' class="col-2 future-cast">
+                        <h4 id="date5"></h4>
+                        <div id="logo5"></div>
+                        <h5 id="temp5"></h5>
+                        <h5 id="hum5"></h5>
+                    </div>
                 </div>
 
             </div>
